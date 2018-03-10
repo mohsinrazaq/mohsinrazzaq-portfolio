@@ -1,0 +1,34 @@
+{
+  "name": "ui-components",
+  "version": "1.0.0",
+  "description": "ui components at skyimpel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohsinrazaq/UI-Components.git"
+  },
+  "author": "Mohsin Razzaq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohsinrazaq/UI-Components/issues"
+  },
+  "homepage": "https://github.com/mohsinrazaq/UI-Components#readme",
+  "dependencies": {
+    "npm-check-updates": "^2.14.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-cleancss": "^0.2.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-less": "^3.5.0",
+    "gulp-less-glob": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify-es": "^1.0.1",
+    "less-plugin-autoprefix": "^1.5.1"
+  }
+}
