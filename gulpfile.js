@@ -8,7 +8,8 @@ const jsmin = require('gulp-uglify-es').default;
 const sourcemaps = require('gulp-sourcemaps');
 const LessAutoprefix = require('less-plugin-autoprefix');
 const BrowserSync = require('browser-sync');
-const lessGlob = require('gulp-less-glob');
+const lessGlob = require('less-plugin-glob');
+const rename = require("gulp-rename");
 
 var autoprefix = new LessAutoprefix({ browsers: ['last 2 versions'] });
 
@@ -39,9 +40,11 @@ gulp.task("js-minify", function(){
 
 gulp.task('less', function () {
     gulp.src(lessDir + 'main.less')
-        .pipe(sourcemaps.init())
-        .pipe(lessGlob())
-        .pipe(less())
+        .pipe(rename("styles.min.css"))
+        .pipe(sourcemaps.init())        
+        .pipe(less({
+            plugins: [autoprefix, lessGlob]
+        }))
         .pipe(cleanCss())
         .pipe(sourcemaps.write('/maps'))
         .pipe(gulp.dest('dist/assets/css/'))
