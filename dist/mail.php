@@ -6,7 +6,7 @@
     header( 'Content-type: application/json' );
 
 
-    $to             = 'arslan.ameer@hotmail.com'; //put your email here
+    $to             = 'mohsinrazzaq25@gmail.com'; //put your email here
     $email_template = 'mail.html';  // will find it on email-templates/ directory
 
     $subject    = strip_tags($_POST['subject']);
