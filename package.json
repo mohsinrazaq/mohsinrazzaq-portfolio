@@ -17,10 +17,11 @@
   },
   "homepage": "https://github.com/mohsinrazaq/UI-Components#readme",
   "dependencies": {
-    "npm-check-updates": "^2.14.0"
+    "gulp-concat": "^2.6.1",
+    "npm-check-updates": "^2.14.3"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
     "gulp-cleancss": "^0.2.2",
     "gulp-htmlmin": "^4.0.0",
