@@ -1,21 +1,21 @@
 {
-  "name": "ui-components",
+  "name": "mohsinrazzaq-portfolio",
   "version": "1.0.0",
-  "description": "ui components at skyimpel",
+  "description": "portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohsinrazaq/UI-Components.git"
+    "url": "git+https://github.com/mohsinrazaq/my-portfolio.git"
   },
   "author": "Mohsin Razzaq",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mohsinrazaq/UI-Components/issues"
+    "url": "https://github.com/mohsinrazaq/my-portfolio/issues"
   },
-  "homepage": "https://github.com/mohsinrazaq/UI-Components#readme",
+  "homepage": "https://github.com/mohsinrazaq/my-portfolio#readme",
   "dependencies": {
     "gulp-concat": "^2.6.1",
     "npm-check-updates": "^2.14.3"
