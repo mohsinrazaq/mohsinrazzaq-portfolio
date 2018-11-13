@@ -1,2 +1,2 @@
-# drone-zone
-front-end project at skyimpel
+# my own portfolio
+built using pure CSS3,HTML5,Javascript
